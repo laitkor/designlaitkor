@@ -1,0 +1,354 @@
+body {
+	background:url(../images/back-bg.jpg) #1b1718 center top no-repeat;
+}
+.top_link {
+	width:100%;
+	min-height:68px;
+	display:block;
+	padding:20px 0px 0px 0px;
+}
+/*navigations*/
+.top-bar {
+	margin-top:0px !important;
+}
+.nav-bg {
+	height:60px;
+	background:url(../images/nav_bg.png) center repeat-x;
+	box-shadow:#534d4e 0px 0px 3px;
+}
+nav {
+	height: 60px;
+	width: 90%;
+	background:none !important;
+	font-size: 11pt;
+	font-family: 'Alex Brush', Arial, sans-serif !important;
+	font-weight:normal !important;
+	position: relative;
+	border-bottom:none !important;
+	margin:0 auto; 
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	padding: 0 15px;
+	line-height:60px;
+	background:none !important;
+	color:#ccc !important;
+	font-size:20px;
+	font-family: 'Kaushan Script', cursive;
+}
+.top-bar-section ul {
+	width: 100%;
+    height: auto;
+    display: block;
+    background:none !important;
+    font-size: 16px;
+    margin: 0;
+}
+.top-bar-section .has-dropdown > a:after {
+	content:"";
+	display:block;
+	width:0;
+    height:0;
+    border:inset 5px;
+    border-color:rgba(255, 255, 255, 0.4) transparent transparent transparent;
+    border-top-style:solid;
+    margin-top:1.5px !important;
+    top:30.0px;
+}
+.top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+	color: white;
+	background: #333333;
+	border-bottom:#444 solid 1px;
+	line-height:40px;
+	font-size:18px;
+	font-weight:normal;
+}
+.f-dropdown li a {
+		display: block;
+		padding: 0.1rem !important;
+		width:198px;
+		background:url(../images/nav_bg.png) center repeat-x !important ;
+		color: #FFF !important;
+}
+.f-dropdown li a:hover {
+		color:#52b1ff !important;
+		background: #005BA5 !important;
+}
+.top-bar-section .dropdown {
+	left: 0;
+	top: auto;
+	background:#282223 !important ;
+	min-width: 100%;
+	border-right:#444 solid 1px !important;/*
+	border-bottom:#444 solid 1px !important;*/
+	border-left:#444 solid 1px !important;
+}
+.no_bor {
+	border-bottom:none;
+}
+/*foundation*/
+.top-bar .toggle-topbar.menu-icon {
+	right: 15px;
+	top: 50%;
+	margin-top: 0px !important;
+	padding-left: 40px;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background: #bd8e5c !important;
+	color:#111 !important;
+}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+  -webkit-appearance: none;
+  background-color:#241f20;
+  font-family: inherit;
+  border: 1px solid #302a2b;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.75);
+  display: block;
+  font-size: 0.875rem;
+  margin: 1rem 0 1rem 0;
+  padding: 0.5rem;
+  height: 2.3125rem;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: box-shadow 0.45s, border-color 0.45s ease-in-out; }
+
+
+.co-name {
+	text-align:center;
+	font-size:90px;
+	line-height:40px;
+	font-weight:normal;
+	padding:30px 0 0 0;
+	color:#bd8e5c;
+	height:125px;
+	font-family: 'Alex Brush', sans-serif;
+}
+.dark-box-countainer {
+	float:left;
+	display:block;
+	background:#3d3838;
+	width:100%;
+	padding:10px;
+	box-shadow:-4px 4px 18px rgba(0, 0, 0, 0.75);
+}
+.dark-box {
+	border:#454545 solid 1px;
+	min-height:260px;
+	width:100%;
+	text-align:center;
+	padding:10px;
+	background:url(../images/box-bg.png) bottom repeat-x;
+}
+.dark-box h2 {
+	border-bottom:#454545 solid 1px;
+	font-size:24px;	
+	font-family: 'Kaushan Script', cursive;
+	color:#bd8e5c;
+	font-weight:bold;
+	text-align:center;
+	display:block;
+	text-shadow:#000 1px 1px 2px;
+	padding:0 0 5px 0;
+}
+
+.dark-box p {
+	font-size:14px;
+	text-align:center;
+	color:#c0c0c0;
+}
+.go-button {
+	background:url(../images/button-bg.jpg) center no-repeat;
+	/*background: -webkit-linear-gradient(#5e5d5d, #464646); /* For Safari 5.1 to 6.0 */
+	/*background: -o-linear-gradient(#5e5d5d, #464646); /* For Opera 11.1 to 12.0 */
+	/*background: -moz-linear-gradient(#5e5d5d, #464646); /* For Firefox 3.6 to 15 */
+	/*background: linear-gradient(#5e5d5d, #464646); /* Standard syntax */
+	width:60%;
+	border:none;
+	border-radius:5px;
+	font-family: 'Archivo Narrow', sans-serif;
+	color:#98f7ff;
+	font-size:24px;
+	height:32px;
+	font-weight:bold;
+	box-shadow:#111 0 0 10px;
+	cursor:pointer;
+	transition:all ease-out 0.3s;
+	margin-bottom:15px;
+}
+.go-button:hover {
+	background:url(../images/button-bg-hover.jpg) center no-repeat;
+}
+.contact-button {
+	background:url(../images/contact-bg.jpg) center no-repeat;
+	/*background: -webkit-linear-gradient(#5e5d5d, #464646); /* For Safari 5.1 to 6.0 */
+	/*background: -o-linear-gradient(#5e5d5d, #464646); /* For Opera 11.1 to 12.0 */
+	/*background: -moz-linear-gradient(#5e5d5d, #464646); /* For Firefox 3.6 to 15 */
+	/*background: linear-gradient(#5e5d5d, #464646); /* Standard syntax */
+	width:18%;
+	position:absolute;
+	bottom:13%;
+	left:6.5%;
+	border:none;
+	border-radius:5px;
+	font-family: 'Archivo Narrow', sans-serif;
+	color:#98f7ff;
+	font-size:24px;
+	height:50px;
+	font-weight:bold;
+	box-shadow:#111 0 0 10px;
+	cursor:pointer;
+	transition:all ease-out 0.3s;
+	margin-bottom:15px;
+}
+.contact-button:hover {
+	background:url(../images/contact-bg-hover.jpg) center no-repeat;
+}
+.send-button {
+	background:url(../images/send-button.jpg) center  no-repeat;
+	/*background: -webkit-linear-gradient(#5e5d5d, #464646); /* For Safari 5.1 to 6.0 */
+	/*background: -o-linear-gradient(#5e5d5d, #464646); /* For Opera 11.1 to 12.0 */
+	/*background: -moz-linear-gradient(#5e5d5d, #464646); /* For Firefox 3.6 to 15 */
+	/*background: linear-gradient(#5e5d5d, #464646); /* Standard syntax */
+	border:none;
+	border-radius:5px;
+	font-family: 'Alex Brush', sans-serif;
+	color:#000;
+	font-size:24px;
+	height:50px;
+	font-weight:bold;
+	box-shadow:#111 0 0 10px;
+	cursor:pointer;
+	transition:all ease-out 0.3s;
+	margin-bottom:15px;
+	margin-left:10px;
+	width:300px;
+}
+.send-button:hover {
+	background:url(../images/send-button-hover.jpg) center no-repeat;
+}
+
+
+
+.hr-bg {
+	background:url(../images/hr-bg.png) center top no-repeat;
+	border:none;
+	height:24px;
+}
+.hr-bg-01 {
+	background:url(../images/hr-bg-01.png) center top no-repeat;
+	border:none;
+	height:24px;
+}
+.text-container {
+	color:#c0c0c0;
+	font-size:12px;
+	background:#1b1718;
+	line-height:18px;
+}
+.text-container h2 {
+	font-size:30px;
+	font-weight:bold;
+	background:#241f20;
+	display:block;
+	margin:0px auto !important;
+	font-family: 'Kaushan Script', cursive;
+	color:#bd8e5c;
+	text-align:center;
+	padding:10px;
+}
+.text-container h3 {
+	font-family: 'Kaushan Script', cursive;
+	color:#999;
+	font-size:24px;
+	color:#bd8e5c;
+	margin:0 0 0px 0;
+	border-bottom:#bd8e5c solid 3px;
+	padding:10px 0px;
+	text-align:center;
+}
+
+.text-container ul {
+	margin:20px auto 10px auto;
+	list-style-type:none;
+	width:80%;
+}
+.text-container li {
+	padding:10px 0px;
+	text-align:center;
+	font-size:14px;
+	border-bottom:#333 solid 1px;
+}
+.text-container p {
+	font-size:14px;
+	text-align:justify;
+	color:#c0c0c0;
+	padding:0 10px;
+}
+.img-border {
+	border:#454545 solid 1px;
+	opacity:0.5;
+	transition:all ease-out 0.3s;
+}
+.img-border:hover {
+	opacity:1.0;
+}
+
+.portfolio-container {
+	padding:10px;
+}
+.portfolio-container h2 {
+	color:#bd8e5c;
+	font-size:24px;
+	margin:0 20px !important;
+}
+.portfolio-img {
+	box-shadow:-4px 4px 18px rgba(0, 0, 0, 0.75);
+	border:#3d3838 solid 5px;
+	text-align:center;	
+}
+.technologies {
+	background:#241f20;
+	box-shadow:-4px 4px 18px rgba(0, 0, 0, 0.75);
+	padding:20px 20px;
+}
+
+.footer-head {
+	font-family:"Kaushan Script",sans-serif;
+	font-size:36px !important;
+	text-align:center !important;
+	color:#bd8e5c !important;
+	line-height:50px;
+}
+.footer {
+	color: #c0c0c0;
+    font-family: "Alex Brush",cursive;
+    font-size:36px;
+    position: relative;
+    text-align: right;
+    top:-12px;
+}
+@media only screen and (max-width : 720px) {
+.contact-button {
+	background:url(../images/contact-bg-icon.jpg) center no-repeat;
+	
+}
+.contact-button:hover {
+	background:url(../images/contact-bg-hover-icon.jpg) center no-repeat;
+}
+	
+}
